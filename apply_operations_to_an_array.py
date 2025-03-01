@@ -1,4 +1,5 @@
-"""You are given a 0-indexed array nums of size n consisting of non-negative integers.
+"""
+You are given a 0-indexed array nums of size n consisting of non-negative integers.
 
 You need to apply n - 1 operations to this array where, in the ith operation (0-indexed), you will apply the following on the ith element of nums:
 
@@ -27,7 +28,8 @@ Example 2:
 
 Input: nums = [0,1]
 Output: [1,0]
-Explanation: No operation can be applied, we just shift the 0 to the end."""
+Explanation: No operation can be applied, we just shift the 0 to the end.
+"""
 
 from typing import List
 
@@ -46,3 +48,4 @@ if __name__ == "__main__":
     nums = [1,2,2,1,1,0]
     s = Solution()
     print(s.applyOperations(nums)) # Output: [1,4,2,0,0,0]
+    
